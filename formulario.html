@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DFormulario</title>
+</head>
+
+<body>
+
+    <form  action="arquivo.php">
+        <!--LEGENDA PARA NOME-->
+        <label for="campo_nome">Nome:</label>
+        <input id="campo_nome" type="text" placeholder="Digite seu nome aqui" required>
+
+        <br><br>
+
+        <!--CAMPO INPUT DO TYPE TEXT-->
+        <label for="campo_sobrenome">Sobrenome:</label>
+        <input id="campo_sobrenome" type="text" placeholder="Digite seu sobrenome aqui" required>
+        <br> <br>
+        
+        <!--LEGENDA PARA SENHA-->
+        <label for="campo_senha">Senha:</label>
+        <input id="campo_senha" type="password" placeholder="Digite uma senha" required>
+        <br> <br>
+
+        <!--CAMPO IMNPUT TYPE EMAIL-->
+        <label for="campo_email">Email:</label>
+        <input id="campo_email" type="email" placeholder="Digite um email" required>
+        <br> <br>
+        <input type="submit" value="Enviar formulario" required>
+
+        <br><br>
+
+        <hr>Animal de estimação</h2>
+        <br><br>
+
+        <input type="radio" id="dog" name="animal" value="Cachorro">
+        <label for="dog">Cachorro</label>
+        <br><br>
+
+        <input type="radio" id="cat" name="animal" value="Gato">
+        <label for="cat">Gato</label>
+        <br><br>
+
+         <input type="radio" id="bird" name="animal" value="Passarinho">
+        <label for="bird">Passarinho</label>
+
+        <br><br>
+
+        <h2>O que voce tem em casa?</h2>
+
+        <input id="item1" type="checkbox" name="item1" value="TV">
+        <label for="item1">TV</label><br><br>
+
+        <input id="item1" type="checkbox" name="item1" value="Geladeira">
+        <label for="item1">Geladeira</label><br><br>
+        
+        <input id="item1" type="checkbox" name="item1" value="Computador">
+        <label for="item1">Computador</label><br><br>
+
+        <h2>Escolha uma cor:</h2>
+        <select>
+            <option value="Vermelho">Vermelho</option>
+            <option value="Azul">Azul</option>
+            <option value="Laranja">Laranja</option>
+            <option value="Roxo">Roxo</option>
+            <option value="Verde">Verde</option>
+
+
+
+        </select>
+
+
+    </form><br>
+    <hr><br>
+    <a href="sobre.html"> Voltar para pagina principal</a>
+    
+</body>
+</html>
